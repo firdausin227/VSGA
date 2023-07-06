@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Order Form</title>
+        <link rel="stylesheet" href="tampilan.css">
+    </head>
+    <body>
+        <div class="container">
+            <h2>Pesanan</h2>
+            <div class="btn-group">
+                <label>
+                    <input type="checkbox" name="menu" value="15000" onchange="calculateCost()">
+                    <span class="left">Americano</span>
+                    <span class="right">Rp 15,000</span>
+                </label>
+                <label>
+                    <input type="checkbox" name="menu" value="18000" onchange="calculateCost()">
+                    <span class="left">Mochaccino</span>
+                    <span class="right">Rp 18,000</span>
+                </label>
+                <label>
+                    <input type="checkbox" name="menu" value="18000" onchange="calculateCost()">
+                    <span class="left">Vanilla Latte</span>
+                    <span class="right">Rp 18,000</span>
+                </label>
+                <label>
+                    <input type="checkbox" name="menu" value="25000" onchange="calculateCost()">
+                    <span class="left">Beef Ricebowl</span>
+                    <span class="right">Rp 25,000</span>
+                </label>
+                <label>
+                    <input type="checkbox" name="menu" value="18000" onchange="calculateCost()">
+                    <span class="left">French Fries</span>
+                    <span class="right">Rp 18,000</span>
+                </label>
+                <label>
+                    <input type="checkbox" name="menu" value="5000" onchange="calculateCost()">
+                    <span class="left">Mineral Water</span>
+                    <span class="right">Rp 5,000</span>
+                </label>
+            </fieldset>
+            <div id="totalCost">
+                <span class="left">Total:</span>
+                <span class="right">Rp 0</span>
+            </div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
